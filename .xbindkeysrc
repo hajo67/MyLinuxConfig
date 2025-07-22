@@ -1,0 +1,32 @@
+# By defaults, xbindkeys does not pay attention with the modifiers
+# NumLock, CapsLock and ScrollLock.
+# Uncomment the lines above if you want to pay attention to them.
+
+#keystate_numlock = enable
+#keystate_capslock = enable
+#keystate_scrolllock= enable
+
+  Control + Mod4 + o
+# Open cad.onshape.com in firefox
+"xdotool keyup Super_L; xdotool keyup o; firefox --new-tab cad.onshape.com"
+  Mod4 + o
+"firefox --new-tab cad.onshape.com"
+  Control + Mod4 + o
+
+# Open Terminal
+"xdotool keyup Super_L; xdotool keyup t; gnome-terminal"
+  Mod4 + t
+"gnome-terminal"
+  Control + Mod4 + t
+
+# Open nvim-qt
+"xdotool keyup Super_L; xdotool keyup v; nvim-qt"
+  Mod4 + v
+"nvim-qt"
+  Control + Mod4 + v
+
+# Open duckduckgo.com in firefox
+"xdotool keyup Super_L; xdotool keyup w; firefox --new-tab www.duckduckgo.com"
+  Mod4 + w
+"firefox --new-tab www.duckduckgo.com"
+  Control + Mod4 + w
