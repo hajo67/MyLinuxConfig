@@ -14,4 +14,7 @@ These packages need to be installed:
 File/Folder overview
 --------------------
 
-* .config -> Files in the .config folder
+* .bashrc -> My .bashrc file
+* .inputrc -> My .inputrc file
+* .xbindkeysrc -> My xbindkeys configuration file
+* .config/autostart -> Autostart files
